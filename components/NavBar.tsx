@@ -20,8 +20,8 @@ const NavBar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${
-        scrolled ? "bg-white shadow-md text-black" : "bg-transparent text-white"
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 text-white  ${
+        scrolled ? " bg-primary shadow-md" : "bg-transparent"
       }`}
     >
       <div className={`flex justify-between ${menuOpen ? 'bg-primary': 'bg-transparent'} items-center px-4 py-3 md:px-6 lg:px-8 md:py-4`}>

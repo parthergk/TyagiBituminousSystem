@@ -26,3 +26,19 @@ body {
   font-family: var(--font-poppins), sans-serif;
   overflow-x: hidden;
 }
+
+/* ✅ Auto Scroll Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+  display: flex;
+  width: max-content;
+}
