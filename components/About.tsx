@@ -3,13 +3,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-8 px-4 md:px-6 lg:px-8 py-10">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-6 lg:px-8 py-10">
       {/* Text Section */}
       <div className="flex-1 flex flex-col space-y-5 text-center md:text-left">
         <span className="text-primary text-xl md:text-2xl">_ _About us</span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug text-black">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-snug text-black">
           How Road Construction Shapes{" "}
-          <span className="text-primary">Our Cities</span>
+          <span className="text-primary italic">Our Cities</span>
         </h1>
         <p className="text-base sm:text-lg md:text-xl text-gray-700">
           Tyagi Bituminous System is a new era manufacturing plant based in
