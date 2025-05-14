@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Process from "@/components/Process";
 import Products from "@/components/Products";
+import Vision from "@/components/Vision";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <Process/>
       <Products/>
+      <Vision/>
     </main>
   );
 }
