@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Process from "@/components/Process";
 import Products from "@/components/Products";
+import Project from "@/components/Project";
 import Vision from "@/components/Vision";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Process/>
       <Products/>
       <Vision/>
+      <Project/>
     </main>
   );
 }
