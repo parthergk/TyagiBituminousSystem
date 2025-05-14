@@ -3,6 +3,7 @@ import Achievement from "@/components/Achievement";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Process from "@/components/Process";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Achievement/>
       <About/>
       <Process/>
+      <Products/>
     </main>
   );
 }
