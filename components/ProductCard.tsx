@@ -41,9 +41,9 @@ const ProductCard = ({ name, des, img }: Prop) => {
         
         <div className="mb-4">
           {isClicked ? (
-            <p className="text-base sm:text-lg text-gray-700">{des}</p>
+            <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700">{des}</p>
           ) : (
-            <p className="text-base sm:text-lg text-gray-700 line-clamp-2">{des}</p>
+            <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700 line-clamp-2">{des}</p>
           )}
         </div>
         

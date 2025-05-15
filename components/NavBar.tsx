@@ -36,26 +36,22 @@ const NavBar = () => {
         </div>
 
         <nav className="hidden md:block">
-          <ul className="flex space-x-10 text-base lg:text-lg">
-            <li><a href="#" className="hover:text-primary">Home</a></li>
-            <li><a href="#" className="hover:text-primary">About Us</a></li>
-            <li><a href="#" className="hover:text-primary">Products</a></li>
-            <li>
-              <button className="px-2 bg-amber-50 text-black">
-                <a href="#">Contact</a>
-              </button>
-            </li>
+          <ul className="flex space-x-10 text-base lg:text-lg ">
+            <li ><a href="#" className="hover:text-primary">Home</a></li>
+            <li ><a href="#" className="hover:text-primary">About Us</a></li>
+            <li ><a href="#" className="hover:text-primary">Products</a></li>
+            <li ><a href="#" className="hover:text-primary">Contact</a></li>
           </ul>
         </nav>
       </div>
 
       {menuOpen && (
         <div className={`md:hidden bg-primary text-center px-4 md:px-6 lg:px-8 py-4`}>
-          <ul className="flex flex-col space-y-6 text-xl">
-            <li><a href="#" className="hover:text-primary text-start">Home</a></li>
-            <li><a href="#" className="hover:text-primary text-start">About</a></li>
-            <li><a href="#" className="hover:text-primary text-start">Products</a></li>
-            <li><a href="#" className="hover:text-primary text-start">Contact</a></li>
+          <ul className="flex flex-col space-y-6 text-base lg:text-lg font-medium">
+            <li className="border-b-2"><a href="#" className="hover:text-primary text-start ">Home</a></li>
+            <li className="border-b-2"><a href="#" className="hover:text-primary text-start ">About</a></li>
+            <li className="border-b-2"><a href="#" className="hover:text-primary text-start ">Products</a></li>
+            <li className="border-b-2"><a href="#" className="hover:text-primary text-start ">Contact</a></li>
           </ul>
         </div>
       )}

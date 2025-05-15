@@ -1,10 +1,13 @@
 import About from "@/components/About";
 import Achievement from "@/components/Achievement";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Process from "@/components/Process";
 import Products from "@/components/Products";
 import Project from "@/components/Project";
+import Testimonial from "@/components/Testimonial";
 import Vision from "@/components/Vision";
 
 export default function Home() {
@@ -18,6 +21,9 @@ export default function Home() {
       <Products/>
       <Vision/>
       <Project/>
+      <Testimonial/>
+      <ContactSection/>
+      <Footer/>
     </main>
   );
 }

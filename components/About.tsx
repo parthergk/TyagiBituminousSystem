@@ -3,14 +3,14 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-6 lg:px-8 py-10">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
       <div className="flex-1 flex flex-col space-y-5 text-center md:text-left">
-        <span className="text-primary text-xl md:text-2xl">_ _About us</span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-snug text-black">
-          How Road Construction Shapes{" "}
+        <span className="text-primary text-sm md:text-base font-semibold tracking-wider uppercase mb-2">_ _About us</span>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-snug text-black">
+          How Road Construction <br/> Shapes{" "}
           <span className="text-primary italic">Our Cities</span>
         </h1>
-        <p className="text-base sm:text-lg md:text-xl text-gray-700">
+        <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700 text-start">
           Tyagi Bituminous System is a new era manufacturing plant based in
           Panipat (Haryana). We have a complete automated plant with latest
           technology available in the world. As of today, we are proud to be a

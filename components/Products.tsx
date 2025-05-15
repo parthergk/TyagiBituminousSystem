@@ -1,9 +1,9 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-interface Product{
-    name: string,
-    des: string,
-    img: string
+interface Product {
+  name: string;
+  des: string;
+  img: string;
 }
 
 const Products = () => {
@@ -35,25 +35,26 @@ const Products = () => {
     },
   ];
   return (
-    <div className="px-4 md:px-6 lg:px-8 py-10">
+    <div className="px-4 md:px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
       <div className="flex flex-col space-y-5 text-center">
-        <span className="text-primary text-xl md:text-2xl">_ _About us</span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-snug text-black">
+        <span className="text-primary text-sm md:text-base font-semibold tracking-wider uppercase mb-2">
+          _ _Our Products
+        </span>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 leading-snug text-black">
           Our Awesome Products
         </h1>
       </div>
-      {/* Products */}
-<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 mt-10">
-  {products.map(item => (
-    <ProductCard
-      key={item.name}
-      name={item.name}
-      des={item.des}
-      img={item.img}
-    />
-  ))}
-</div>
 
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+        {products.map((item) => (
+          <ProductCard
+            key={item.name}
+            name={item.name}
+            des={item.des}
+            img={item.img}
+          />
+        ))}
+      </div>
     </div>
   );
 };

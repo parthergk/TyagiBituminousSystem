@@ -47,19 +47,15 @@ const Vision = () => {
   ];
 
   return (
-    <div className="w-full px-4 md:px-6 lg:px-8 py-16 ">
-      <div className="flex flex-col space-y-3 justify-center items-center mb-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-snug text-primary text-center">
+    <div className="w-full px-4 md:px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
+      <div className="flex flex-col space-y-3 justify-center items-center">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 leading-snug text-primary text-center">
           Vision & Mission
         </h1>
-        <div className="w-24 h-1 bg-primary rounded-full my-4"></div>
-        <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl text-center italic">
+        <div className="w-24 h-1 bg-primary rounded-full mb-2"></div>
+        <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700 max-w-xl text-center italic">
           To be a preferred partner in the road development sector by providing
           value-driven products and solutions to our customers.
-        </p>
-        <p className="text-base sm:text-lg md:text-xl text-gray-700 italic">
-          We will create consistent value for our customers through excellence
-          in everything we do.
         </p>
       </div>
 

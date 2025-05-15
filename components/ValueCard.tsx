@@ -6,7 +6,7 @@ interface Prop{
 }
 const ValueCard = ({ title, description, icon }: Prop) => {
   return (
-    <div className="flex flex-col md:flex-row items-start p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 cursor-pointer">
+    <div className="flex flex-col md:flex-row items-start py-4 rounded-lg transition-all duration-300 hover:bg-blue-50 cursor-pointer">
       <div className="mr-4 text-primary mb-3 md:mb-0">
         {icon}
       </div>
