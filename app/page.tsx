@@ -13,7 +13,6 @@ import Vision from "@/components/Vision";
 export default function Home() {
   return (
     <main className=" w-full h-full">
-      <NavBar/>
       <Hero/>
       <Achievement/>
       <About/>
@@ -23,7 +22,6 @@ export default function Home() {
       <Project/>
       <Testimonial/>
       <ContactSection/>
-      <Footer/>
     </main>
   );
 }

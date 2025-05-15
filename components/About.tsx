@@ -16,7 +16,7 @@ const About = () => {
           technology available in the world. As of today, we are proud to be a
           largest manufacturer of Bitumen Emulsion in Haryana Region with a
           production capacity of more than 100 Metric ton per day. We market
-          our Bitumen Emulsion under Trademark "TBS EMULSION". This is just a
+          our Bitumen Emulsion under Trademark `&quot;`TBS EMULSION`&quot;`. This is just a
           beginning — there is a lot more to go, and we are very positive given
           our team commitment.
         </p>
