@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,11 +28,10 @@ const NavBar = () => {
       <div
         className={`flex justify-between ${
           menuOpen ? "bg-primary" : "bg-transparent"
-        } items-center px-4 py-2 md:px-6 lg:px-8`}
+        } items-center px-4 py-4 md:px-6 lg:px-8`}
       >
         <Link href="/" className="text-xl text-center">
-          Tyagi
-          <div className=" text-xs border-b mt-1">BITUMINOUS SYSTEM</div>
+          TBS{" "}
         </Link>
 
         <div className="md:hidden flex justify-center items-center">
@@ -45,22 +43,17 @@ const NavBar = () => {
         <nav className="hidden md:block">
           <ul className="flex space-x-10 text-base lg:text-lg">
             <li>
-              <Link href="/" className="hover:text-primary">
+              <Link href="/" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-primary">
+              <Link href="/about" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-primary">
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="hover:text-primary">
+              <Link href="/contact" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
                 Contact
               </Link>
             </li>
@@ -72,23 +65,18 @@ const NavBar = () => {
         <div
           className={`md:hidden bg-primary text-center px-4 md:px-6 lg:px-8 py-4`}
         >
-          <ul className="flex space-x-10 text-base lg:text-lg">
-            <li className=" border-b-2">
-              <Link href="/" className="hover:text-primary">
+          <ul className="flex flex-col w-full gap-5 text-base lg:text-lg">
+            <li className=" border-b-2 m-0">
+              <Link href="/" className="hover:text-primary mb-2">
                 Home
               </Link>
             </li>
-            <li className=" border-b-2">
+            <li className=" border-b-2 m-0">
               <Link href="/about" className="hover:text-primary">
                 About Us
               </Link>
             </li>
-            <li className=" border-b-2">
-              <Link href="#" className="hover:text-primary">
-                Products
-              </Link>
-            </li>
-            <li className=" border-b-2">
+            <li className=" border-b-2 m-0">
               <Link href="/contact" className="hover:text-primary">
                 Contact
               </Link>

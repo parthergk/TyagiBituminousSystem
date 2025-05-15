@@ -5,7 +5,8 @@ import { Mail, Phone, MapPin } from "lucide-react";
 const ContactSection = () => {
   // Location details
   const location = {
-    address: "Sarai, Kohand, G.T. Road Garhi Multan (Panipat)",
+    address:
+      "TYAGI BITUMINOUS SYSTEM, Sarai, Kohand, G.T. Road, Garhi Multan (Panipat)",
     pincode: "132114",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.683280883662!2d77.01128491543594!3d29.15861828222638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dc1209d00dec5%3A0xd9fb717f89a4a175!2sSarai%2C%20Kohand%2C%20Haryana%20132114!5e0!3m2!1sen!2sin!4v1652893961634!5m2!1sen!2sin",
@@ -22,7 +23,7 @@ const ContactSection = () => {
     <section className="pt-16 md:pt-24 lg:pt-32 px-4 md:px-6 lg:px-8">
       <div className="container mx-auto">
         <div className="text-center mb-10">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug text-black">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug text-black">
             Contact Us
           </h1>
         </div>

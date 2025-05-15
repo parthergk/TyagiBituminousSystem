@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 interface Product {
+  id: string;
   name: string;
   des: string;
   img: string;
@@ -9,26 +10,31 @@ interface Product {
 const Products = () => {
   const products: Product[] = [
     {
+      id: "pmb-emulsion",
       name: "TBS PMB Emulsion",
       des: "Ideal for microsurfacing with high adhesion and fast curing properties.",
       img: "/main.png",
     },
     {
+      id: "rs-1",
       name: "TBS RS-1",
       des: "Designed for rapid setting spray applications such as tack coats.",
       img: "/main.png",
     },
     {
+      id: "ss-1",
       name: "TBS SS-1",
       des: "Slow setting emulsion suitable for prime coating on WMM/WBM surfaces.",
       img: "/main.png",
     },
     {
+      id: "ms",
       name: "TBS MS",
       des: "Perfect for pothole repair and patch works with medium setting time.",
       img: "/main.png",
     },
     {
+      id: "cold-mix",
       name: "TBS Cold Mix Emulsion",
       des: "Specially made for cold mix applications, even in extreme climates.",
       img: "/main.png",
@@ -48,7 +54,8 @@ const Products = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
         {products.map((item) => (
           <ProductCard
-            key={item.name}
+            key={item.id}
+            id={item.id}
             name={item.name}
             des={item.des}
             img={item.img}

@@ -2,14 +2,16 @@
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 interface Prop {
+  id: string;
   name: string;
   des: string;
   img: string;
 }
 
-const ProductCard = ({ name, des, img }: Prop) => {
+const ProductCard = ({id, name, des, img }: Prop) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
@@ -47,12 +49,14 @@ const ProductCard = ({ name, des, img }: Prop) => {
           )}
         </div>
         
+        <Link href={`/product/${id}`} >
         <button 
           onClick={handleReadMore}
           className="w-full sm:w-auto px-4 py-2 rounded-md font-medium text-white transition-colors duration-200 bg-primary hover:bg-[#e65c00] cursor-pointer"
         >
           Read More
         </button>
+        </Link>
       </div>
     </div>
   );
