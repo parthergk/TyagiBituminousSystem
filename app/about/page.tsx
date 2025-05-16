@@ -1,5 +1,3 @@
-// app/about/page.tsx (Next.js with Tailwind CSS)
-
 import Image from "next/image";
 
 export default function AboutPage() {
