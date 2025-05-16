@@ -74,6 +74,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
             <address className="not-italic text-gray-100 space-y-2">
+              <p>TYAGI BITUMINOUS SYSTEM</p>
               <p>Sarai, Kohand, G.T. Road</p>
               <p>Garhi Multan, Panipat</p>
               <p>Haryana, 132114</p>

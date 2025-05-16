@@ -5,10 +5,10 @@ import { Mail, Phone, MapPin } from "lucide-react";
 const Contact = () => {
   // Location details
   const location = {
-    address: "Sarai, Kohand, G.T. Road Garhi Multan (Panipat)",
+    address: "TYAGI BITUMINOUS SYSTEM, Sarai, Kohand, G.T. Road, Garhi Multan (Panipat)",
     pincode: "132114",
     mapSrc:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.683280883662!2d77.01128491543594!3d29.15861828222638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dc1209d00dec5%3A0xd9fb717f89a4a175!2sSarai%2C%20Kohand%2C%20Haryana%20132114!5e0!3m2!1sen!2sin!4v1652893961634!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.357026851711!2d76.97198267438328!3d29.505950843885568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dd90040630367%3A0x3cd4539954a3acbf!2sTyagi%20bituminous%20system%20hr!5e0!3m2!1sen!2sin!4v1747376231183!5m2!1sen!2sin",
   };
 
   // Contact details

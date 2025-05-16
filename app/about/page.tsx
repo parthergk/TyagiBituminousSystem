@@ -117,7 +117,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
             <Image
-              src="/main.png"
+              src="/certificate.png"
               alt="Official ISO Certificate"
               width={500}
               height={350}
