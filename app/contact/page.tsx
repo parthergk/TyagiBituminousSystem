@@ -13,8 +13,8 @@ const Contact = () => {
 
   // Contact details
   const contactInfo = {
-    email: "info@example.com",
-    phone: "+91 98765 43210",
+    email: "info@tyagibituminoussystem.in",
+    phone: "+91 9997624171",
     address: `${location.address}, Pin - ${location.pincode}`,
   };
 

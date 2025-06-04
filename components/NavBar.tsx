@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+// import Image from "next/image";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -33,6 +34,7 @@ const NavBar = () => {
         <Link href="/" className=" text-lg sm:text-xl md:text-2xl text-center flex relative">
         <div className=" border-t-2 border-l-2 px-1 w-4 h-4 self-start absolute -left-1.5 sm:-left-2"></div>
            <span className=" font-medium tracking-widest sm:my-0.5">TBS</span>
+           {/* <Image alt="logo" src="/img/logo.png" fill /> */}
         <div className=" border-r-2 border-b-2 px-1 w-4 h-4 self-end absolute -right-1.5 sm:-right-2"></div>
         </Link>
 

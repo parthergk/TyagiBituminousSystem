@@ -13,31 +13,31 @@ const Products = () => {
       id: "pmb-emulsion",
       name: "TBS PMB Emulsion",
       des: "Ideal for microsurfacing with high adhesion and fast curing properties.",
-      img: "/main.png",
+      img: "/img/product/TBS PMB Emulsion.jpeg",
     },
     {
       id: "rs-1",
       name: "TBS RS-1",
       des: "Designed for rapid setting spray applications such as tack coats.",
-      img: "/main.png",
+      img: "/img/product/TBSRS-1.png",
     },
     {
       id: "ss-1",
       name: "TBS SS-1",
       des: "Slow setting emulsion suitable for prime coating on WMM/WBM surfaces.",
-      img: "/main.png",
+      img: "/img/product/TBS Emulsion SS 1.png",
     },
     {
       id: "ms",
       name: "TBS MS",
       des: "Perfect for pothole repair and patch works with medium setting time.",
-      img: "/main.png",
+      img: "/img/product/TBS Emulsion MS.png",
     },
     {
       id: "cold-mix",
       name: "TBS Cold Mix Emulsion",
       des: "Specially made for cold mix applications, even in extreme climates.",
-      img: "/main.png",
+      img: "/img/product/TBS Cold Mix Emulsion.png",
     },
   ];
   return (

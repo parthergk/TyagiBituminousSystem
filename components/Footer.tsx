@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="mb-6 text-gray-100 max-w-md">{companyInfo.description}</p>
             
             {/* Social Media Links */}
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               {companyInfo.socials.map((social, index) => (
                 <a 
                   key={index}
@@ -51,7 +51,7 @@ const Footer = () => {
                   <social.icon size={20} />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -79,13 +79,13 @@ const Footer = () => {
               <p>Garhi Multan, Panipat</p>
               <p>Haryana, 132114</p>
               <p className="mt-4">
-                <a href="tel:+919876543210" className="hover:text-white transition-colors duration-200">
-                  +91 98765 43210
+                <a href="tel:+91 9997624171" className="hover:text-white transition-colors duration-200">
+                  +91 9997624171
                 </a>
               </p>
               <p>
-                <a href="mailto:info@tyagibituminous.com" className="hover:text-white transition-colors duration-200">
-                  info@tyagibituminous.com
+                <a href="mailto:info@tyagibituminoussystem.in" className="hover:text-white transition-colors duration-200">
+                  info@tyagibituminoussystem.in
                 </a>
               </p>
             </address>

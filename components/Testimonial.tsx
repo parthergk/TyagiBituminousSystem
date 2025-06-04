@@ -5,34 +5,22 @@ const Testimonial = () => {
   const reviews = [
     {
       quote:
-        "This platform transformed the way we manage projects. It's fast, efficient, and user-friendly.",
-      name: "Aarav Sharma",
-      title: "Project Manager at InfraBuild",
+        "Excellent products and excellent application knowledge.",
+      name: "Dhruv Siwach",
+      title: "MD RG Buildwell ",
     },
     {
       quote:
-        "The support team is outstanding and the interface is super intuitive. Highly recommend it.",
-      name: "Meera Iyer",
-      title: "CTO at UrbanGrid",
+        "The entire process—from planning to execution—was smooth and professional. The team really knows their field, and they made everything simple and easy to understand. Their support and attention to detail were impressive. Highly recommend Bituminous for anyone in need of quality bitumen solutions.",
+      name: "Ajay Gupta",
+      title: "COO SGF Infra",
     },
     {
       quote:
-        "We’ve seen a 30% boost in productivity after adopting this tool. Incredible value!",
-      name: "Rohan Mehta",
-      title: "Operations Lead at Construx",
-    },
-    {
-      quote:
-        "Our entire workflow became smoother. It's like this was built exactly for our needs.",
-      name: "Divya Kapoor",
-      title: "Civil Engineer at MegaStructures Inc.",
-    },
-    {
-      quote:
-        "Excellent features, fast performance, and great UX. This is a must-have tool for any team.",
-      name: "Siddharth Verma",
-      title: "Tech Lead at BuildTech",
-    },
+        "We’ve seen a 30% boost in productivity after adopting the TBS products. Incredible value!",
+      name: "Amit Joshi",
+      title: "MD Amit Joshi Construction",
+    }
   ];
 
   return (

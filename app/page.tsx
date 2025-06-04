@@ -2,7 +2,7 @@ import About from "@/components/About";
 import Achievement from "@/components/Achievement";
 import ContactSection from "@/components/ContactSection";
 import Hero from "@/components/Hero";
-import Process from "@/components/Process";
+// import Process from "@/components/Process";
 import Products from "@/components/Products";
 import Project from "@/components/Project";
 import Testimonial from "@/components/Testimonial";
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero/>
       <Achievement/>
       <About/>
-      <Process/>
+      {/* <Process/> */}
       <Products/>
       <Vision/>
       <Project/>

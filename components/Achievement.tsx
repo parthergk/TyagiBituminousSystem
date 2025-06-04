@@ -2,10 +2,10 @@ import React from 'react';
 
 const Achievement = () => {
   const achievements = [
-    { count: '25k', cont: 'Project Completed' },
-    { count: '23k', cont: 'Satisfied Clients' },
-    { count: '46+', cont: 'Years Of Experience' },
-    { count: '57k', cont: 'Total Branches' }
+    // { count: '25k', cont: 'Project Completed' },
+    { count: '100+', cont: 'Satisfied Clients' },
+    { count: '10+', cont: 'Years Of Experience' },
+    { count: '3', cont: 'Total Branches' }
   ];
 
   return (

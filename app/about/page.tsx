@@ -22,8 +22,7 @@ export default function AboutPage() {
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
         <div className="flex-1 flex flex-col space-y-5 text-center md:text-left">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-snug text-black">
-            How Road Construction <br /> Shapes{" "}
-            <span className="text-primary italic">Our Cities</span>
+            TYAGI BITUMINOUS {" "} <span className="text-primary italic">SYSTEM</span>
           </h1>
           <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700 text-start">
             Tyagi Bituminous System is a new era manufacturing plant based in
@@ -41,7 +40,7 @@ export default function AboutPage() {
         <div className="flex-1 flex justify-center md:justify-end relative">
           <Image
             alt="person"
-            src="/main.png"
+            src="/img/unit/about.jpg"
             width={400}
             height={450}
             className="w-full max-w-xs sm:max-w-sm md:max-w-lg h-auto object-contain rounded-sm shadow-2xl "
@@ -63,21 +62,21 @@ export default function AboutPage() {
             data-speed="0.3"
           >
             <Image
-              src="/main.png"
+              src="/img/unit/unit1.jpeg"
               alt="Manufacturing Equipment 1"
               width={600}
               height={400}
               className="rounded-lg object-cover w-full h-auto transition-transform duration-500 will-change-transform"
             />
             <Image
-              src="/main.png"
+              src="/img/unit/unit2.jpeg"
               alt="Manufacturing Equipment 2"
               width={600}
               height={400}
               className="rounded-lg object-cover w-full h-auto transition-transform duration-500 will-change-transform"
             />
             <Image
-              src="/main.png"
+              src="/img/unit/unit3.png"
               alt="Barrel Stock"
               width={600}
               height={400}
@@ -89,14 +88,14 @@ export default function AboutPage() {
             data-speed="0.5"
           >
             <Image
-              src="/main.png"
+              src="/img/unit/unit4.png"
               alt="Lab Setup"
               width={600}
               height={400}
               className="rounded-lg object-cover w-full h-auto transition-transform duration-500 will-change-transform"
             />
             <Image
-              src="/main.png"
+              src="/img/unit/unit5.png"
               alt="Mixer Unit"
               width={600}
               height={400}
@@ -116,6 +115,36 @@ export default function AboutPage() {
           <div>
             <Image
               src="/certificate.png"
+              alt="Official ISO Certificate"
+              width={500}
+              height={350}
+              className="rounded-lg object-cover shadow-lg w-full h-auto"
+            />
+          </div>
+          <div className=" self-start">
+            <h3 className="text-xl font-semibold mb-4 text-gray-800">
+              ISO 9001:2015 Certified
+            </h3>
+            <p className="text-base text-gray-700 leading-relaxed">
+              Tyagi Bituminous System has been awarded ISO 9001:2015
+              certification for maintaining high standards in quality
+              management. Our products are rigorously tested to meet national
+              and international standards. This certification reflects our
+              ongoing commitment to delivering reliable and consistent quality
+              to our customers across the road development and infrastructure
+              industry.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="px-4 md:px-6 lg:px-8 pt-16 md:pt-24 lg:pt-32">
+        <h2 className="text-2xl font-semibold mb-10 text-primary">
+          Certification
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div>
+            <Image
+              src="/img/lic.jpeg"
               alt="Official ISO Certificate"
               width={500}
               height={350}

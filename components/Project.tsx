@@ -14,20 +14,20 @@ const Project = () => {
     {
       id: 1,
       title: "Highway Development",
-      description: "A major highway expansion project connecting urban centers with improved infrastructure.",
-      img: "/main.png",
+      description: "Agra Lucknow Expressway microsurfacing and slurry sealing project.",
+      img: "/img/project/project1.jpg",
     },
     {
       id: 2,
-      title: "Bridge Construction",
-      description: "Modern suspension bridge designed to withstand extreme weather conditions.",
-      img: "/main.png",
+      title: "NHAI Project",
+      description: "Tack coat and priming work on Basukinath-Deoghar NHAI project.",
+      img: "/img/project/project2.png",
     },
     {
       id: 3,
-      title: "Urban Road Network",
-      description: "Comprehensive road network redevelopment in metropolitan areas.",
-      img: "/main.png",
+      title: "Rural PMGSY Road Network",
+      description: "ColdMix work at Baramulla Jammu & Kashmir.",
+      img: "/img/project/project3.jpeg",
     },
   ];
 

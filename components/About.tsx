@@ -7,8 +7,7 @@ const About = () => {
       <div className="flex-1 flex flex-col space-y-5 text-center md:text-left">
         <span className="text-primary text-sm md:text-base font-semibold tracking-wider uppercase mb-2">_ _About us</span>
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-snug text-black">
-          How Road Construction <br/> Shapes{" "}
-          <span className="text-primary italic">Our Cities</span>
+          TYAGI BITUMINOUS {" "} <span className="text-primary italic">SYSTEM</span>
         </h1>
         <p className="text-sm md:text-base lg:text-lg leading-relaxed text-gray-700 text-start">
           Tyagi Bituminous System is a new era manufacturing plant based in
@@ -26,7 +25,7 @@ const About = () => {
       <div className="flex-1 flex justify-center md:justify-end relative">
         <Image
           alt="person"
-          src="/main.png"
+          src="/img/unit/about.jpg"
           width={400}
           height={450}
           className="w-full max-w-xs sm:max-w-sm md:max-w-lg h-auto object-contain rounded-sm shadow-2xl "
