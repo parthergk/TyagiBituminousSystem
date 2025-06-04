@@ -25,10 +25,10 @@ const About = () => {
       <div className="flex-1 flex justify-center md:justify-end relative">
         <Image
           alt="person"
-          src="/img/unit/about.jpg"
+          src="/img/about.jpg"
           width={400}
           height={450}
-          className="w-full max-w-xs sm:max-w-sm md:max-w-lg h-auto object-contain rounded-sm shadow-2xl "
+          className="w-full h-full max-w-xs sm:max-w-sm md:max-w-lg md:max-h-96 object-contain rounded-sm shadow-2xl "
         />
         <div className=" text-base absolute -bottom-5 left-20 bg-primary text-white px-5 py-2 rounded-sm shadow-2xl">Established in 2021</div>
       </div>
