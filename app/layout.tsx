@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Tyagi Bituminous System",
     images: [
       {
-        url: "https://www.tyagibituminoussystem.in/img/tyagibituminoussystem.png",
+        url: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
         width: 1200,
         height: 630,
         alt: "ISO Certified Bitumen Emulsion Manufacturer",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tyagi Bituminous System",
     description: "Certified Bitumen Emulsion Manufacturer for Roads | BIS & ISO Certified",
-    images: ["https://www.tyagibituminoussystem.in/img/tyagibituminoussystem.png"],
+    images: ["https://www.tyagibituminoussystem.in/tyagibituminoussystem.png"],
   },
   metadataBase: new URL("https://www.tyagibituminoussystem.in"),
   alternates: {
@@ -69,8 +69,8 @@ const jsonLd = {
   description:
     "BIS and ISO certified manufacturer of premium quality Bitumen Emulsion for road construction in India.",
   url: "https://www.tyagibituminoussystem.in",
-  logo: "https://www.tyagibituminoussystem.in/img/tyagibituminoussystem.png",
-  image: "https://www.tyagibituminoussystem.in/img/tyagibituminoussystem.png",
+  logo: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
+  image: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
   
   address: {
     "@type": "PostalAddress",
@@ -101,7 +101,6 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Tyagi Bituminous System" />
-        <meta name="google-site-verification" content="your-verification-code-here" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
