@@ -19,8 +19,8 @@ const ProjectCard: React.FC<ProjectProps> = ({ project }) => {
           <Image 
             src={project.img} 
             alt={project.title} 
-            layout="fill" 
-            objectFit="cover" 
+            fill 
+            className=" object-cover" 
           />
         </div>
       </div>

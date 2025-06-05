@@ -33,7 +33,7 @@ const ProductCard = ({id, name, des, img }: Prop) => {
         <Image 
           alt={`${name} product image`} 
           src={img} 
-          layout="fill"
+          fill
           className={`object-cover transition-transform duration-500 ${isHovered ? "scale-105" : ""}`}
         />
       </div>
