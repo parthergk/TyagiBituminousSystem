@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 // import Image from "next/image";
 
 const NavBar = () => {
@@ -31,12 +32,21 @@ const NavBar = () => {
           menuOpen ? "bg-primary" : "bg-transparent"
         } items-center px-4 py-4 md:px-6 lg:px-8`}
       >
-        <Link href="/" className=" text-lg sm:text-xl md:text-2xl text-center flex relative">
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={120}
+            height={40}
+            className="h-auto w-10 sm:w-14 rounded-full"
+            priority
+          />
+        </Link>
+        {/* <Link href="/" className=" text-lg sm:text-xl md:text-2xl text-center flex relative">
         <div className=" border-t-2 border-l-2 px-1 w-4 h-4 self-start absolute -left-1.5 sm:-left-2"></div>
            <span className=" font-medium tracking-widest sm:my-0.5">TBS</span>
-           {/* <Image alt="logo" src="/img/logo.png" fill /> */}
         <div className=" border-r-2 border-b-2 px-1 w-4 h-4 self-end absolute -right-1.5 sm:-right-2"></div>
-        </Link>
+        </Link> */}
 
         <div className="md:hidden flex justify-center items-center">
           <button onClick={toggleMenu} className="text-2xl focus:outline-none">
@@ -47,17 +57,32 @@ const NavBar = () => {
         <nav className="hidden md:block">
           <ul className="flex space-x-10 text-base lg:text-lg">
             <li>
-              <Link href="/" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
+              <Link
+                href="/"
+                className={`${
+                  scrolled ? "hover:border-b-2" : "hover:text-primary"
+                }`}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
+              <Link
+                href="/about"
+                className={`${
+                  scrolled ? "hover:border-b-2" : "hover:text-primary"
+                }`}
+              >
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/contact" className={`${scrolled ? "hover:border-b-2" : "hover:text-primary"}`}>
+              <Link
+                href="/contact"
+                className={`${
+                  scrolled ? "hover:border-b-2" : "hover:text-primary"
+                }`}
+              >
                 Contact
               </Link>
             </li>

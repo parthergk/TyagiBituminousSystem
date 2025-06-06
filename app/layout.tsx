@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: "Tyagi Bituminous System | Bitumen Emulsion Manufacturer India",
   description:
     "Tyagi Bituminous System is a BIS and ISO certified manufacturer of Bitumen Emulsion for roads and infrastructure in India. Trusted quality and national standards compliance.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   keywords: [
     "bitumen emulsion",
     "bituminous company",
@@ -26,10 +30,16 @@ export const metadata: Metadata = {
     "cationic bitumen emulsion",
     "road surfacing bitumen",
   ],
-  authors: [{ name: "Tyagi Bituminous System", url: "https://www.tyagibituminoussystem.in" }],
+  authors: [
+    {
+      name: "Tyagi Bituminous System",
+      url: "https://www.tyagibituminoussystem.in",
+    },
+  ],
   creator: "Tyagi Bituminous System",
   openGraph: {
-    title: "Tyagi Bituminous System | BIS & ISO Certified Bitumen Emulsion Manufacturer",
+    title:
+      "Tyagi Bituminous System | BIS & ISO Certified Bitumen Emulsion Manufacturer",
     description:
       "Get premium-grade Bitumen Emulsion certified by BIS and ISO standards. Serving India's infrastructure with quality and trust.",
     url: "https://www.tyagibituminoussystem.in",
@@ -48,7 +58,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tyagi Bituminous System",
-    description: "Certified Bitumen Emulsion Manufacturer for Roads | BIS & ISO Certified",
+    description:
+      "Certified Bitumen Emulsion Manufacturer for Roads | BIS & ISO Certified",
     images: ["https://www.tyagibituminoussystem.in/tyagibituminoussystem.png"],
   },
   metadataBase: new URL("https://www.tyagibituminoussystem.in"),
@@ -71,7 +82,7 @@ const jsonLd = {
   url: "https://www.tyagibituminoussystem.in",
   logo: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
   image: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
-  
+
   address: {
     "@type": "PostalAddress",
     streetAddress: "Sarai, Kohand, G.T. Road Garhi Multan",
@@ -85,9 +96,7 @@ const jsonLd = {
     telephone: "+91 9997624171",
     contactType: "Customer Service",
   },
-  sameAs: [
-    "https://maps.google.com/?q=Tyagi+Bituminous+System+Hr",
-  ],
+  sameAs: ["https://maps.google.com/?q=Tyagi+Bituminous+System+Hr"],
 };
 
 export default function RootLayout({
@@ -101,7 +110,20 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Tyagi Bituminous System" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
