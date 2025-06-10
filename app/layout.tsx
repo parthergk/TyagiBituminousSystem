@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Tyagi Bituminous System",
-      url: "https://tyagibituminoussystem.in",
+      url: "https://tyagibituminoussystem.in/",
     },
   ],
   creator: "Tyagi Bituminous System",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "Tyagi Bituminous System | BIS & ISO Certified Bitumen Emulsion Manufacturer",
     description:
       "Get premium-grade Bitumen Emulsion certified by BIS and ISO standards. Serving India's infrastructure with quality and trust.",
-    url: "https://tyagibituminoussystem.in",
+    url: "https://tyagibituminoussystem.in/",
     siteName: "Tyagi Bituminous System",
     images: [
       {
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
       "Certified Bitumen Emulsion Manufacturer for Roads | BIS & ISO Certified",
     images: ["https://tyagibituminoussystem.in/tyagibituminoussystem.png"],
   },
-  metadataBase: new URL("https://tyagibituminoussystem.in"),
+  metadataBase: new URL("https://tyagibituminoussystem.in/"),
   alternates: {
-    canonical: "https://tyagibituminoussystem.in",
+    canonical: "https://tyagibituminoussystem.in/",
   },
 };
 
@@ -74,7 +74,7 @@ const jsonLd = {
   name: "Tyagi Bituminous System",
   description:
     "BIS and ISO certified manufacturer of premium quality Bitumen Emulsion for road construction in India.",
-  url: "https://tyagibituminoussystem.in",
+  url: "https://tyagibituminoussystem.in/",
   logo: "https://tyagibituminoussystem.in/tyagibituminoussystem.png",
   image: "https://tyagibituminoussystem.in/tyagibituminoussystem.png",
   address: {
