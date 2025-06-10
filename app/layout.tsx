@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Tyagi Bituminous System",
-      url: "https://www.tyagibituminoussystem.in",
+      url: "https://tyagibituminoussystem.in",
     },
   ],
   creator: "Tyagi Bituminous System",
@@ -42,11 +42,11 @@ export const metadata: Metadata = {
       "Tyagi Bituminous System | BIS & ISO Certified Bitumen Emulsion Manufacturer",
     description:
       "Get premium-grade Bitumen Emulsion certified by BIS and ISO standards. Serving India's infrastructure with quality and trust.",
-    url: "https://www.tyagibituminoussystem.in",
+    url: "https://tyagibituminoussystem.in",
     siteName: "Tyagi Bituminous System",
     images: [
       {
-        url: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
+        url: "https://tyagibituminoussystem.in/tyagibituminoussystem.png",
         width: 1200,
         height: 630,
         alt: "ISO Certified Bitumen Emulsion Manufacturer",
@@ -60,17 +60,12 @@ export const metadata: Metadata = {
     title: "Tyagi Bituminous System",
     description:
       "Certified Bitumen Emulsion Manufacturer for Roads | BIS & ISO Certified",
-    images: ["https://www.tyagibituminoussystem.in/tyagibituminoussystem.png"],
+    images: ["https://tyagibituminoussystem.in/tyagibituminoussystem.png"],
   },
-  metadataBase: new URL("https://www.tyagibituminoussystem.in"),
+  metadataBase: new URL("https://tyagibituminoussystem.in"),
   alternates: {
-    canonical: "https://www.tyagibituminoussystem.in",
+    canonical: "https://tyagibituminoussystem.in",
   },
-};
-
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
 };
 
 const jsonLd = {
@@ -79,10 +74,9 @@ const jsonLd = {
   name: "Tyagi Bituminous System",
   description:
     "BIS and ISO certified manufacturer of premium quality Bitumen Emulsion for road construction in India.",
-  url: "https://www.tyagibituminoussystem.in",
-  logo: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
-  image: "https://www.tyagibituminoussystem.in/tyagibituminoussystem.png",
-
+  url: "https://tyagibituminoussystem.in",
+  logo: "https://tyagibituminoussystem.in/tyagibituminoussystem.png",
+  image: "https://tyagibituminoussystem.in/tyagibituminoussystem.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Sarai, Kohand, G.T. Road Garhi Multan",
