@@ -63,9 +63,15 @@ export const metadata: Metadata = {
     images: ["https://tyagibituminoussystem.in/tyagibituminoussystem.png"],
   },
   metadataBase: new URL("https://tyagibituminoussystem.in/"),
+
   alternates: {
     canonical: "https://tyagibituminoussystem.in/",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 const jsonLd = {
@@ -101,7 +107,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.variable}>
       <head>
-        <meta charSet="UTF-8" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Tyagi Bituminous System" />
         <link rel="manifest" href="/site.webmanifest" />

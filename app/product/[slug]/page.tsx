@@ -7,7 +7,6 @@ export async function generateStaticParams() {
   }));
 }
 
-
 const ProductDetailPage = async ({
   params,
 }: {
@@ -17,18 +16,8 @@ const ProductDetailPage = async ({
 
   const product = products.find((p) => p.id === slug);
 
-  // If product not found
-  if (!product) {
-    return (
-      <div className="container mx-auto px-4 py-16">
-        <h1 className="text-2xl font-bold text-red-600">Product not found</h1>
-        <p className="mt-4">
-          The product you`&apos;`re looking for doesn`&apos;`t exist or has been
-          removed.
-        </p>
-      </div>
-    );
-  }
+  if (!product)
+    return <div className="text-center py-10">Product not found</div>;
 
   return (
     <main>
