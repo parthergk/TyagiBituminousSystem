@@ -1,17 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://tyagibituminoussystem.in/",
+  siteUrl: "https://tyagibituminoussystem.in",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "monthly",
   priority: 0.7,
-  exclude: ["/admin"],
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: "*",
-        allow: "/",
-      },
-    ],
-  },
+  exclude: [],
+  outDir: "./public"
 };
