@@ -1,4 +1,25 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About Us | Tyagi Bituminous System",
+  description: "Learn about Tyagi Bituminous System — a leading manufacturer of BIS & ISO certified Bitumen Emulsion in Haryana, India. Explore our history, mission, and team.",
+  alternates: {
+    canonical: "https://tyagibituminoussystem.in/about",
+  },
+  openGraph: {
+    title: "About Tyagi Bituminous System",
+    description: "Discover our journey as a BIS & ISO certified Bitumen Emulsion manufacturer in India.",
+    url: "https://tyagibituminoussystem.in/about",
+    images: ["/tyagibituminoussystem.png"],
+  },
+  twitter: {
+    title: "About Us - Tyagi Bituminous System",
+    description: "Trusted manufacturer of bitumen emulsion in India. Learn more about our company and goals.",
+    images: ["/tyagibituminoussystem.png"],
+  },
+};
+
 
 export default function AboutPage() {
   return (

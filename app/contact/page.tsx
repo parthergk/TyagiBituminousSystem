@@ -1,6 +1,27 @@
 // ContactSection.tsx
 import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Tyagi Bituminous System",
+  description: "Reach out to Tyagi Bituminous System for inquiries about Bitumen Emulsion products, bulk orders, or general support. Based in Panipat, Haryana.",
+  alternates: {
+    canonical: "https://tyagibituminoussystem.in/contact",
+  },
+  openGraph: {
+    title: "Contact Tyagi Bituminous System",
+    description: "Get in touch for product inquiries, support, and distribution opportunities.",
+    url: "https://tyagibituminoussystem.in/contact",
+    images: ["/tyagibituminoussystem.png"],
+  },
+  twitter: {
+    title: "Contact Us - Tyagi Bituminous System",
+    description: "Have questions? Contact us today. We’re ready to assist you with your bitumen needs.",
+    images: ["/tyagibituminoussystem.png"],
+  },
+};
+
 
 const Contact = () => {
   // Location details

@@ -268,9 +268,6 @@ export default function RootLayout({
           }}
         />
         
-        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-        <meta httpEquiv="X-Frame-Options" content="DENY" />
-        <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
       </head>
       <body className="font-sans antialiased">
         <NavBar />

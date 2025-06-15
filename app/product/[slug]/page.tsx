@@ -1,10 +1,50 @@
 import React from "react";
 import { products } from "@/lib/ProductData";
+import { Metadata } from "next";
 
 export async function generateStaticParams() {
   return products.map((product) => ({
     slug: product.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const {slug} = await params;
+  const product = products.find((p) => p.id === slug);
+
+  if (!product) return {};
+
+  const siteUrl = "https://tyagibituminoussystem.in";
+
+  return {
+    title: `${product.name}`,
+    description: product.description,
+    alternates: {
+      canonical: `${siteUrl}/products/${product.id}`,
+    },
+    openGraph: {
+      title: `${product.name}`,
+      description: product.description,
+      url: `${siteUrl}/products/${product.id}`,
+      images: [
+        {
+          url: `${siteUrl}/${product.img}`,
+          width: 1200,
+          height: 630,
+          alt: product.name,
+        },
+      ],
+    },
+    twitter: {
+      title: `${product.name}`,
+      description: product.description,
+      images: [`${siteUrl}/${product.img}`],
+    },
+  };
 }
 
 const ProductDetailPage = async ({
