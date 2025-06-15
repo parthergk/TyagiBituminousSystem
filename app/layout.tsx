@@ -187,24 +187,6 @@ const organizationJsonLd = {
     minValue: 50,
     maxValue: 100
   },
-  makesOffer: [
-    {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Product",
-        name: "Cationic Bitumen Emulsion",
-        description: "High-quality cationic bitumen emulsion for road construction"
-      }
-    },
-    {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Product",
-        name: "Anionic Bitumen Emulsion",
-        description: "Premium anionic bitumen emulsion for various applications"
-      }
-    }
-  ],
   hasCredential: [
     {
       "@type": "EducationalOccupationalCredential",
